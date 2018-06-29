@@ -1,6 +1,7 @@
 puts "tapez votre prénom:"
+print ">"
 user_prenom = gets.chomp
 puts "tapez votre nom de famille"
-user_nom = gets.chomp
-puts "Bonjour #{user_prenom}#{user_nom} , passez une belle journée"
-}
+print ">"
+user_nom = gets.chomp.upcase
+puts "Bonjour  #{user_prenom} #{user_nom} , passez une très belle journée"
